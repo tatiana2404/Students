@@ -17,8 +17,9 @@ public class Group {
         for (int i = 0; i < group.length; i++) {
             if (group[i] == null) {
                 group[i] = student;
-                System.out.println("Студент успешно добавлен в группу. В группе "+k+" студ.");
                 k++;
+                System.out.println("Студент успешно добавлен в группу. В группе "+k+" студ.");
+
                 return;
             }
 
