@@ -27,8 +27,7 @@ public class Group {
         throw new MyNewException();
     }
     public void deleteStudent(Student student){
-        int i=1;
-        for(; i<k; i++){
+        for(int i=0; i<k; i++){
             if(student.getRecordBook() == group[i].getRecordBook()){
                 group[i]=null;
                 k--;
