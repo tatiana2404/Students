@@ -46,7 +46,7 @@ public class Main {
             System.out.println("Индекс за пределами массива."+e);
         }
 
-       group.deleteStudent(s3);
+       group.deleteStudent(s1);
 
         System.out.println(group.findStudent("Мельник").toString());
         System.out.println(group.toString());
